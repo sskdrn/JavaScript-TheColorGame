@@ -1,0 +1,90 @@
+body{
+	/* font-family: monteserrat; */
+	background-color: black;
+	transition: all 500ms;
+	
+}
+#color{
+	text-transform: uppercase;
+}
+#heading{
+	text-align: center;
+	font-family: monteserrat;
+	color: white;
+	background: steelblue;
+	display: flex;
+	flex-direction: column;
+}
+.container-fluid h1{
+	font-size: 4.5rem;
+}
+#buttonbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+}
+button{
+	background: white;
+	color: steelblue;
+	border: none;
+	/* font-family: monteserrat; */
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	outline: none;
+	transition: all 500ms;
+
+}
+button:hover{
+	background: steelblue;
+	color: white;
+	outline: none;
+}
+button:click{
+	border: none;
+	outline: none;
+	transition: all 500ms;
+}
+#BG{
+	display: block;
+	align-items: center;
+	
+}
+#tiles1{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#tiles1  .square{
+	width: 15%;
+	border-radius: 10px;
+	padding-top: 15%;
+	background: rgb(9, 255, 0);
+	transition: all 500ms;
+}
+#tiles2{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	transition: all 500ms;
+}
+#tiles2 .square{
+	/* width: 15%;
+	border-radius: 10px;
+	background: rgb(9, 255, 0);
+	height: 100px; */
+	width: 15%;
+	border-radius: 10px;
+	padding-top: 15%;
+	background: rgb(9, 255, 0);
+	transition: all 500ms;
+}
+.disappear{
+	display: none;
+}
+/* .button_background{
+	if
+} */
